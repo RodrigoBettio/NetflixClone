@@ -175,3 +175,61 @@ font-weight: bolder;
 section.primeira>div :nth-child(2){
     font-size: 24px;
 }
+
+.separacao {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.segunda{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tercImg{
+    position: relative;
+}
+
+.tercImg img{
+    width: 555px;
+    position: relative;
+    right: 78%;
+    top: 50px;
+    z-index: 100;
+}
+
+.tercImg video{
+    position: absolute;
+    top: 101px;
+    left: -328px;
+    width: 335px;
+    z-index: 99;
+}
+
+section.segunda>div{
+    display: flex;
+    flex-direction: column;
+    padding:34px 100;
+
+}
+
+section.segunda>div :nth-child(1){
+font-size: 48px;
+font-weight: bolder;
+}
+
+section.segunda>div :nth-child(2){
+    font-size: 24px;
+}
+
+
